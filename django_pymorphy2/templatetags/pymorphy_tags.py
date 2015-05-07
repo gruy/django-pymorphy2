@@ -9,7 +9,7 @@ from __future__ import unicode_literals, absolute_import
 import re
 
 from django import template
-from django.utils.text import force_text
+from django.utils.encoding import force_text
 
 from django_pymorphy2.config import MARKER_OPEN, MARKER_CLOSE
 from django_pymorphy2.shortcuts.forms import get_forms_tuple
